@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'prifilled';
+
+  userData = {
+    email: "akshayarh@gmail.com",
+    password: '123456',
+    address: 'shree 2A wing, Pune Maharastra',
+    mobile: 987654321
+    }
 }
